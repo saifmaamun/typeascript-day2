@@ -57,3 +57,18 @@ interface IFunction{
     (n1:number,n2:number):number
 }
 const substruct:IFunction=(n1,n2)=>n1-n2
+
+
+
+
+// array can be typed
+type NumberArray=number[];
+const ageArray:NumberArray=[12,13, 15]
+
+
+
+// array can be interfaced
+interface INumberArray{
+    [index:number]:number
+}
+const iAgeArray: INumberArray=[25,12,9]

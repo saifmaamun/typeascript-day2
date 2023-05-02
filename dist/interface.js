@@ -19,3 +19,5 @@ const eManTyp = {
 };
 const addNumber = (n1, n2) => n1 + n2;
 const substruct = (n1, n2) => n1 - n2;
+const ageArray = [12, 13, 15];
+const iAgeArray = [25, 12, 9];
