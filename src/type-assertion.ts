@@ -1,0 +1,27 @@
+let box:any;
+box ="This Box Type is Any";
+
+// can be defined as string
+console.log((box as string).length)
+
+box =28;
+// can be defined as number
+console.log((box as number)+17)
+
+
+const footToInch=(param: number | string ): string| number| undefined=>{
+    if (typeof param=== 'string'){
+        const value = parseFloat(param)*30.48;
+        return `the value is ${value} inch`
+    }
+    if (typeof param=== 'number'){
+        const value = param*30.48;
+        return value;
+    }
+}
+
+console.log(footToInch('5.3') )
+console.log(footToInch(5.3))
+
+const str = footToInch('5.5') as string;
+const num = footToInch(5.5) as number ;
