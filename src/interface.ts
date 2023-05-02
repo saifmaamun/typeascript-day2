@@ -43,3 +43,17 @@ const eManTyp: TExtendUser= {
     age:10,
     designation:'high'
 }
+
+
+
+
+// can typecast function || this type is much appreciable.
+type FunctionType=(n1:number,n2:number)=>number;
+const addNumber:FunctionType=(n1,n2)=>n1+n2
+
+
+// can interface function
+interface IFunction{
+    (n1:number,n2:number):number
+}
+const substruct:IFunction=(n1,n2)=>n1-n2

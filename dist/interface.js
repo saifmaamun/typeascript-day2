@@ -7,3 +7,15 @@ const manInt = {
     name: "Int",
     age: 10
 };
+const eManInt = {
+    name: 'extend',
+    age: 10,
+    position: 'high'
+};
+const eManTyp = {
+    name: 'extend',
+    age: 10,
+    designation: 'high'
+};
+const addNumber = (n1, n2) => n1 + n2;
+const substruct = (n1, n2) => n1 - n2;
