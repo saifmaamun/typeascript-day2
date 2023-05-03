@@ -37,3 +37,4 @@ const rectArea:Area<Measurement>={
 }
 
 // rectArea.width =15
+// cant change if its readonly
