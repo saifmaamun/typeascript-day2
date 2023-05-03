@@ -35,7 +35,7 @@ interface FinanceInterface{
     admissionFee:number;
 }
 
-let edita =arrGen<FamilyInterface,EducationInterface>(
+const edita =arrGen<FamilyInterface,EducationInterface>(
     {
         name: 'Edita',
         fathersName:'janina',

@@ -11,7 +11,7 @@ const r3 = genArr(100);
 const arrGen = (param1, param2) => {
     return [param1, param2];
 };
-let edita = arrGen({
+const edita = arrGen({
     name: 'Edita',
     fathersName: 'janina',
     mothersName: 'janina',
