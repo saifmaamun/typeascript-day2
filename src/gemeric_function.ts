@@ -56,7 +56,7 @@ const editaFinance:FinanceInterface={
 }
 
 
-const addinfo = (info:object)=>{
+const addinfo = <T>(info:T)=>{
     const newData= [...edita,info];
     return newData;
 }
